@@ -29,8 +29,12 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
+import wordpress from './tech/wordpress.png';
+import webflow from './tech/webflow.png';
 
 export {
+  webflow,
+  wordpress,
   logo,
   backend,
   creator,

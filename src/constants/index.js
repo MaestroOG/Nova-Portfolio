@@ -1,5 +1,6 @@
 
 import {
+  webflow,
   logo,
   backend,
   creator,
@@ -16,7 +17,7 @@ import {
   express,
   aws,
   mui,
-  
+  wordpress,
   gsap,
   framer,
   figma,
@@ -45,7 +46,7 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    
+
   },
   {
     id: "work",
@@ -59,19 +60,51 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Web & Mobile App Development",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Social Media Management",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Graphic Design",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "SEO (on-page & off-page)",
+    icon: creator,
+  },
+  {
+    title: "Ui UX Design",
+    icon: web,
+  },
+  {
+    title: "Google & Meta Ads",
+    icon: mobile,
+  },
+  {
+    title: "Convert Rate Optimization",
+    icon: backend,
+  },
+  {
+    title: "Email Marketing",
+    icon: creator,
+  },
+  {
+    title: "Analytics & Reporting",
+    icon: web,
+  },
+  {
+    title: "Copywriting & Content Creation",
+    icon: mobile,
+  },
+  {
+    title: "CRM Automation",
+    icon: backend,
+  },
+  {
+    title: "GRO (Generative Engine Optimization)",
     icon: creator,
   },
 ];
@@ -102,7 +135,7 @@ const technologies = [
     icon: framer,
   },
 
- 
+
   {
     name: "Three JS",
     icon: threejs,
@@ -148,22 +181,32 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
+  {
+    name: "wordpress",
+    icon: wordpress,
+  },
+
+  {
+    name: "webflow",
+    icon: webflow,
+
+
+  }
+
 
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
+    title: "Nova Protocol's Journey",
     company_name: "Tekisky",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jan 2016 - Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Nova began its journey in 2016 under the umbrella of Devsofts, operating initially under a different name. What started as a small, dedicated team focused on delivering quality web development solutions has evolved into a full-fledged, independent brand.",
+      "Over the years, Nova has grown steadily—earning trust through consistent delivery, innovation, and a client-first approach.",
+      "Today, Nova stands proudly with its own identity, backed by years of experience, a diverse portfolio, and a strong foundation built during its formative years under Devsofts."
     ],
   },
 ];
@@ -171,25 +214,25 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
+      "Nova was instrumental in launching our online store. The team was responsive, creative, and delivered exactly what we envisioned—on time and within budget.",
+    name: "Sam L.",
+    designation: "eCommerce Business Owner",
     company: "QuickMart",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
+      "We’ve worked with several developers in the past, but Nova stands out for their professionalism and attention to detail. Highly recommended!",
+    name: "James T.",
+    designation: "Marketing Director",
     company: "justbuyz",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
+      "From design to development, the entire process was smooth. Nova really took the time to understand our goals and delivered a website that performs beautifully.",
+    name: "Mark K.",
+    designation: "CEO Tech Startup",
     company: "456 Enterprises",
     image: thirdTestimonial,
   },
@@ -217,7 +260,7 @@ const projects = [
         name: "mongodb",
         color: "green-text-gradient",
       },
- 
+
     ],
     image: project2,
     source_code_link: "https://github.com/",

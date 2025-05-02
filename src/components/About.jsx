@@ -67,14 +67,12 @@ const About = () => {
   return (
     <>
       <div ref={headingRef}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>About Nova Protocols</p>
+        <h2 className={styles.sectionHeadText}>Your Silent Partner in Digital Success</h2>
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+        Nova Protocols is a premium white-label outsourcing provider helping digital agencies, consultants, and businesses expand their offerings without expanding their overhead. Whether you're overloaded or looking to scale, our expert team works behind the scenes under your brand to deliver high-quality, client-ready solutions.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
