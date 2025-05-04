@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div className="mt-28 md:mt-5 lg:5 z-10">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Scale Your Agency <br /> with <span className='text-[#915EFF]'>Nova Protocols'</span> Premium <br /> White-Label Solutions
+            Scale Your Agency <br /> with <span className='text-[#915EFF]'>Nova Protocol's</span> Premium <br /> White-Label Solutions
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             We deliver expert digital marketing, website development, and app development services under your brand—so you can grow faster, smarter
