@@ -84,7 +84,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Convert Rate Optimization",
+    title: "Conversion Rate Optimization",
     icon: backend,
   },
   {
